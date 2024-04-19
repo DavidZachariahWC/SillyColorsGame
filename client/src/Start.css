@@ -1,0 +1,44 @@
+.app-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Aligns content to the top */
+    align-items: center;
+    height: 100vh; /* Full height of the viewport */
+    padding: 20px;
+  }
+  
+  .content-top {
+    width: 100%; /* Ensures it takes full width */
+    text-align: center;
+  }
+  
+  .colors-list {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .buttons-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .start-button-container {
+    margin-top: auto; /* Pushes everything else to the top */
+    margin-bottom: auto; /* And this centers the button vertically */
+    width: 100%; /* Full width for easier centering */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+  }
+  
+  .start-button {
+    font-size: 20px;
+    padding: 15px 30px;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  

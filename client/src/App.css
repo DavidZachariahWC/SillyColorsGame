@@ -1,0 +1,18 @@
+.button-container {
+  text-align: center;
+  margin: 10px;
+}
+
+.color-button {
+  background-color: var(--button-color); /* Use CSS variables for colors */
+  color: white;
+  font-size: 16px;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.counter {
+  margin-top: 5px;
+}
